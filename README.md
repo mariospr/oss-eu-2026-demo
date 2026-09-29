@@ -33,16 +33,9 @@ ninja -C BUILD
 
 If you don't pass a URL, it loads https://wpewebkit.org.
 
-There's also a minimal version from the slides, which only loads the URL and
-handles no signals or keyboard shortcuts:
-
-```sh
-./BUILD/wpe-demo-simple [URL]
-```
-
 With WPE in a custom prefix, you may also need to prepend `/path/to/prefix/lib` to `LD_LIBRARY_PATH`.
 
-Keyboard shortcuts (`wpe-demo` only):
+Keyboard shortcuts:
 
 | Shortcut | Action            |
 |----------|-------------------|
